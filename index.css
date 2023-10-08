@@ -27,7 +27,7 @@ body {
     font-weight: 800;
 }
 
-.text>button {
+.main-button {
     border-radius: 8px;
     background: #E55473;
     color: white;
@@ -96,5 +96,20 @@ body {
     margin-top: 50px;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
+    text-align: center;
+}
+
+
+/* hot deals section */
+.hot-deals {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    padding-top: 50px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+.deals-text{
+    padding-top: 80px;
     text-align: center;
 }
